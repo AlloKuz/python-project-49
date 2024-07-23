@@ -20,3 +20,9 @@
 Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
 <a href="https://asciinema.org/a/XxexniHGc6FZGeLtqrVfS0ydX" target="_blank"><img src="https://asciinema.org/a/XxexniHGc6FZGeLtqrVfS0ydX.svg" /></a>
+
+Игра «Арифметическая прогрессия»
+
+Игроку показан ряд чисел, который образует арифметическую прогрессию. Одно из чисел заменено двумя точками. Игрок должен определить это число.
+
+<a href="https://asciinema.org/a/BaofnBF4V6qicF3eh7tJNGO56" target="_blank"><img src="https://asciinema.org/a/BaofnBF4V6qicF3eh7tJNGO56.svg" /></a>
