@@ -26,3 +26,9 @@
 Игроку показан ряд чисел, который образует арифметическую прогрессию. Одно из чисел заменено двумя точками. Игрок должен определить это число.
 
 <a href="https://asciinema.org/a/BaofnBF4V6qicF3eh7tJNGO56" target="_blank"><img src="https://asciinema.org/a/BaofnBF4V6qicF3eh7tJNGO56.svg" /></a>
+
+Игра «Простое ли число?»
+
+Игроку выводятся числа. Нужно ответить является ли число простым.
+
+<a href="https://asciinema.org/a/Z32JOMsyqBiJpaXDuwq3khsw1" target="_blank"><img src="https://asciinema.org/a/Z32JOMsyqBiJpaXDuwq3khsw1.svg" /></a>
