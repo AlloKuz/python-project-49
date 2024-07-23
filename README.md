@@ -7,10 +7,16 @@
 
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 
-<a href="https://asciinema.org/a/tJjL1jlFmQsMvggNlQiwuLR45" target="_blank"><img src="https://asciinema.org/a/tJjL1jlFmQsMvggNlQiwuLR45.svg" /></a>
+<a href="https://asciinema.org/a/v9nP05Rrb6BAaccoMpH1qgboD" target="_blank"><img src="https://asciinema.org/a/v9nP05Rrb6BAaccoMpH1qgboD.svg" /></a>
 
 Игра: «Калькулятор»
 
 Суть игры в следующем: пользователю показывается случайное математическое выражение, например, 35 + 16, которое нужно вычислить и записать правильный ответ.
 
-<a href="https://asciinema.org/a/reJrEtdI5My0NczHISKWWIqzy" target="_blank"><img src="https://asciinema.org/a/reJrEtdI5My0NczHISKWWIqzy.svg" /></a>
+<a href="https://asciinema.org/a/S8Y3GUEyLVf1vKIQWbnkon59I" target="_blank"><img src="https://asciinema.org/a/S8Y3GUEyLVf1vKIQWbnkon59I.svg" /></a>
+
+Игра «НОД»
+
+Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+<a href="https://asciinema.org/a/XxexniHGc6FZGeLtqrVfS0ydX" target="_blank"><img src="https://asciinema.org/a/XxexniHGc6FZGeLtqrVfS0ydX.svg" /></a>
