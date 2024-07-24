@@ -9,7 +9,7 @@
 ```
 git clone https://github.com/AlloKuz/python-project-49
 
-cd python-project-49/
+cd python-project-49
 
 make install build publish package-install
 ```
