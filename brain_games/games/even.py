@@ -1,7 +1,7 @@
 from random import randint
 from brain_games.flo import even_game
 
-case = 'Answer "yes" if the number even, otherwise answer "no".'
+case = "Answer 'yes' if the number even, otherwise answer 'no'."
 
 def is_even(number):
     return number % 2 == 0
