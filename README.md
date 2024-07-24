@@ -3,6 +3,18 @@
 
 <a href="https://codeclimate.com/github/AlloKuz/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/d8fc2c7390e46fd8c6dc/maintainability" /></a>
 
+Этот репозиторий включает в себя 5 мини-игр для проверке вашего мозга в терминале.
+
+Для того, что бы установить его к себе, нужно находясь в удобном для себя месте в вашем ПК:
+
+git clone https://github.com/AlloKuz/python-project-49
+
+cd python-project-49/
+
+make install build publish package-install
+
+Готово! Теперь можно и поиграть...
+
 Игра: «Проверка на чётность»
 
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
