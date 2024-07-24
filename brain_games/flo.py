@@ -18,7 +18,7 @@ def even_game(get, case):
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
                     user_answer, correct_answer
-	        )
+                )
             )
             print(f"Let's try again, {name}!")
             return

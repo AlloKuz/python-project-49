@@ -3,6 +3,7 @@ from brain_games.flo import even_game
 
 case = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def is_even(number):
     return number % 2 == 0
 
@@ -15,4 +16,3 @@ def get():
 
 def run_game():
     even_game(get, case)
-

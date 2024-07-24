@@ -19,7 +19,7 @@
 
 Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
-<a href="https://asciinema.org/a/yM11P6IgSaeULCvBXueZSNWmR" target="_blank"><img src="https://asciinema.org/a/yM11P6IgSaeULCvBXueZSNWmR.svg" /></a>
+<a href="https://asciinema.org/a/ggl63ncUow4WLdS0GSgxFwGfa" target="_blank"><img src="https://asciinema.org/a/ggl63ncUow4WLdS0GSgxFwGfa.svg" /></a>
 
 Игра «Арифметическая прогрессия»
 

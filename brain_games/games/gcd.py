@@ -15,7 +15,7 @@ def get_gcd(num1, num2):
 
 def get():
     num1, num2 = choices(range(1, 30), k=2)
-    question = "{} {}".format(num1,num2)
+    question = "{} {}".format(num1, num2)
     answer = get_gcd(num1, num2)
     return question, str(answer)
 
