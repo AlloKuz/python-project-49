@@ -7,7 +7,7 @@ def even_game(get, case):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(case)
+    print(case, end="\n\n")
     for i in range(count):
         question, correct_answer = get()
         print("Question: {}".format(question))
