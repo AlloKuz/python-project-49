@@ -1,7 +1,7 @@
 from random import choices
 from brain_games.engine import even_game
 
-case = "Find the greatest common divisor of given numbers."
+CASE = "Find the greatest common divisor of given numbers."
 
 
 def get_gcd(num1, num2):
@@ -13,7 +13,7 @@ def get_gcd(num1, num2):
         divisor -= 1
 
 
-def get():
+def get_question():
     num1, num2 = choices(range(1, 30), k=2)
     question = "{} {}".format(num1, num2)
     answer = get_gcd(num1, num2)
@@ -21,4 +21,4 @@ def get():
 
 
 def run_game():
-    even_game(get, case)
+    even_game(get_question, CASE)

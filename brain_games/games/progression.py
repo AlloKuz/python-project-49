@@ -12,7 +12,7 @@ def get_progression(start, step, PROGRESSION_LENGHT):
     return progression
 
 
-def get():
+def get_question():
     start = randint(1, 100)
     step = randint(1, 10)
     miss_item_index = randint(1, PROGRESSION_LENGHT - 1)
@@ -24,4 +24,4 @@ def get():
 
 
 def run_game():
-    even_game(get, CASE)
+    even_game(get_question, CASE)
