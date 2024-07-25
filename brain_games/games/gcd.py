@@ -1,5 +1,5 @@
 from random import choices
-from brain_games.flo import even_game
+from brain_games.engine import even_game
 
 case = "Find the greatest common divisor of given numbers."
 

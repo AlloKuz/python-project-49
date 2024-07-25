@@ -1,5 +1,5 @@
 from random import randint
-from brain_games.flo import even_game
+from brain_games.engine import even_game
 
 case = "What number is missing in the progression?"
 

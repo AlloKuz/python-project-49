@@ -1,5 +1,5 @@
 from random import randrange
-from brain_games.flo import even_game
+from brain_games.engine import even_game
 
 case = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 

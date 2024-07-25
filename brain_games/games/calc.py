@@ -1,5 +1,5 @@
 from random import choice, choices
-from brain_games.flo import even_game
+from brain_games.engine import even_game
 
 case = "What is the result of the expression?"
 
