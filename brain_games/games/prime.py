@@ -1,4 +1,4 @@
-from random import randrange
+from random import randint
 from brain_games.engine import even_game
 
 case = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -15,7 +15,7 @@ def is_prime(num):
 
 
 def get():
-    question = randrange(1, 60, 2)
+    question = randint(2, 100)
     answer = "yes" if is_prime(question) else "no"
     return question, answer
 
