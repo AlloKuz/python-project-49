@@ -10,7 +10,7 @@ def is_prime(num):
     while index <= num // 2:
         if num % index == 0:
             count += 1
-        index += 1 
+        index += 1
     return count == 1
 
 
