@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.engine import even_game
 
 CASE = "What number is missing in the progression?"
 
@@ -21,7 +20,3 @@ def get_question():
     progression.insert(miss_item_index, "..")
     question = " ".join([str(i) for i in progression])
     return question, str(answer)
-
-
-def run_game():
-    even_game(get_question, CASE)

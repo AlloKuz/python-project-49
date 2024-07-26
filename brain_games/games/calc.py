@@ -1,5 +1,4 @@
 from random import choice, choices
-from brain_games.engine import even_game
 
 CASE = "What is the result of the expression?"
 
@@ -22,7 +21,3 @@ def get_question():
     answer = calculate(num1, num2, sign)
     question = "{} {} {}".format(num1, sign, num2)
     return question, str(answer)
-
-
-def run_game():
-    even_game(get_question, CASE)

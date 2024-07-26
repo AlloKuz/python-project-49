@@ -3,13 +3,13 @@ import prompt
 COUNT = 3
 
 
-def even_game(get, CASE):
+def even_game(game):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(CASE, end="\n\n")
+    print(game.CASE, end="\n\n")
     for i in range(COUNT):
-        question, correct_answer = get()
+        question, correct_answer = game.get_question()
         print("Question: {}".format(question))
         user_answer = prompt.string('Your answer: ')
         if correct_answer == user_answer:
