@@ -5,7 +5,9 @@ CASE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
-    for i in range(1, num // 2 + 1):
+    if num <= 1:
+        return False
+    for i in range(2, num):
         if num % i == 0:
             return False
     return True
