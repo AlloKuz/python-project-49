@@ -12,7 +12,7 @@ def even_game(game):
         question, correct_answer = game.get_question()
         print("Question: {}".format(question))
         user_answer = prompt.string('Your answer: ')
-        if correct_answer == user_answer:
+        if str(correct_answer) == user_answer:
             print("Correct!")
         else:
             print(

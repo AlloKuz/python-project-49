@@ -20,4 +20,4 @@ def get_question():
     sign = choice(SIGN)
     answer = calculate(num1, num2, sign)
     question = "{} {} {}".format(num1, sign, num2)
-    return question, str(answer)
+    return question, answer

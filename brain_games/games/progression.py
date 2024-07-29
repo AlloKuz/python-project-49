@@ -19,4 +19,4 @@ def get_question():
     answer = progression.pop(miss_item_index)
     progression.insert(miss_item_index, "..")
     question = " ".join([str(i) for i in progression])
-    return question, str(answer)
+    return question, answer
