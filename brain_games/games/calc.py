@@ -1,4 +1,4 @@
-from random import choice
+from random import choice, choices
 
 CASE = "What is the result of the expression?"
 
