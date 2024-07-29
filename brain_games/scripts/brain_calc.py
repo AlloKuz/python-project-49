@@ -4,6 +4,7 @@ from brain_games.games import calc
 
 
 def main():
+    """Function launches the Brain Games calculator-game."""
     engine.even_game(calc)
 
 

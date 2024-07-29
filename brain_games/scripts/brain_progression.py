@@ -4,6 +4,7 @@ from brain_games.games import progression
 
 
 def main():
+    """Function launches the Brain Games progression-game."""
     engine.even_game(progression)
 
 

@@ -6,6 +6,9 @@ SIGNS = ["+", "-", "*"]
 
 
 def calculate(num_1, num_2, sign):
+    """Function performs arithmetic operations of addition,
+    subtraction and multiplication on two numbers.
+    """
     if sign == "+":
         result = num_1 + num_2
     elif sign == "-":
@@ -16,6 +19,7 @@ def calculate(num_1, num_2, sign):
 
 
 def get_question():
+    """Function generates a math question with two numbers and an operator."""
     num1, num2 = choices(range(1, 30), k=2)
     sign = choice(SIGNS)
     answer = calculate(num1, num2, sign)

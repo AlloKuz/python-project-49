@@ -4,6 +4,7 @@ from brain_games.games import prime
 
 
 def main():
+    """Function launches the Brain Games prime-game."""
     engine.even_game(prime)
 
 

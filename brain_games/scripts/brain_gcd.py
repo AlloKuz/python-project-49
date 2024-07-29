@@ -4,6 +4,7 @@ from brain_games.games import gcd
 
 
 def main():
+    """Function launches the Brain Games gdc-game."""
     engine.even_game(gcd)
 
 

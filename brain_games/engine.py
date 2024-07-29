@@ -4,6 +4,9 @@ COUNT = 3
 
 
 def even_game(game):
+    """Function launches one of the Brain Games,
+    which consists of multiple-choice questions.
+    """
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
