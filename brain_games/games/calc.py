@@ -1,8 +1,8 @@
-from random import choice, choices
+from random import choice
 
 CASE = "What is the result of the expression?"
 
-SIGN = ["+", "-", "*"]
+SIGNS = ["+", "-", "*"]
 
 
 def calculate(num_1, num_2, sign):
@@ -17,7 +17,7 @@ def calculate(num_1, num_2, sign):
 
 def get_question():
     num1, num2 = choices(range(1, 30), k=2)
-    sign = choice(SIGN)
+    sign = choice(SIGNS)
     answer = calculate(num1, num2, sign)
     question = "{} {} {}".format(num1, sign, num2)
     return question, answer
